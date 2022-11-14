@@ -49,24 +49,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/repassword"
-        android:layout_marginTop="122dp"
+        android:layout_marginTop="147dp"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="Register"
         android:textAllCaps="false"
         android:textSize="25dp" />
 
-   <!-- <Button
-        android:id="@+id/btnSignUp"
+    <Button
+        android:id="@+id/btnloginn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnSignUp"
-        android:layout_marginTop="19dp"
-        android:backgroundTint="@android:color/holo_blue_light"
-        android:text="Existing User! \Go To Sign In Page "
+        android:layout_marginTop="480dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Login"
         android:textAllCaps="false"
         android:textSize="25dp" />
--->
-
+    <!-- <Button
+         android:id="@+id/btnSignUp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/btnSignUp"
+         android:layout_marginTop="19dp"
+         android:backgroundTint="@android:color/holo_blue_light"
+         android:text="Existing User! \Go To Sign In Page "
+         android:textAllCaps="false"
+         android:textSize="25dp" />
+ -->
 
 
 </RelativeLayout>

@@ -36,24 +36,44 @@
 
                 />
             <TextView
-                android:id="@+id/method"
+                android:id="@+id/title1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@string/recipeName"
                 android:textSize="21sp"
                 android:textStyle="bold"
                 />
             <TextView
-                android:id="@+id/recipe"
+                android:id="@+id/title1_detail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_margin="18dp"
-                android:textSize="20sp"
-                android:text="@string/ingredients"
-
+                android:layout_marginTop="10dp"
+                android:textSize="21sp"
                 />
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/title2_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="21sp"
+                />
+            <TextView
+                android:id="@+id/method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                />
+
 
 
 

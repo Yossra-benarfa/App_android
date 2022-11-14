@@ -50,8 +50,11 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             Intent intent = new Intent(mContext,RecipeActivity.class);
            intent.putExtra("RecipeName" ,mData.get(i).getRecipeName());
             intent.putExtra("RecipeIngredients",mData.get(i).getRecipeIngredients());
-            intent.putExtra("RecipeMethodTitle",mData.get(i).getRecipeMethodTitle());
-            intent.putExtra("Recipe",mData.get(i).getRecipe());
+            intent.putExtra("RecipeTitle1",mData.get(i).getRecipeTitle1());
+            intent.putExtra("RecipeTitle1Detail",mData.get(i).getRecipeTitle1Detail());
+            intent.putExtra("RecipeTitle2",mData.get(i).getRecipeTitle2());
+            intent.putExtra("RecipeTitle2Detail",mData.get(i).getRecipeTitle2Detail());
+//            intent.putExtra("Recipe",mData.get(i).getRecipe());
             intent.putExtra("Thumbnail",mData.get(i).getThumbnail());
 
             mContext.startActivity(intent);
