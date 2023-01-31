@@ -4,8 +4,8 @@ import java.math.BigInteger;
 import java.security.SecureRandom;
 
 public class Utils {
-    public static final String EMAIL = "yosra.benarfa@esprit.tn";
-    public static final String PASSWORD = "203JFT1066";
+    public static final String EMAIL = "EMAIL";
+    public static final String PASSWORD = "PASSWORD";
 
     public static String generateRandomHexToken(int byteLength) {
         SecureRandom secureRandom = new SecureRandom();
